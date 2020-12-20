@@ -1,0 +1,40 @@
+[
+    {
+        "nombre"   : "BLANCA DORIS CONTRERAS MATEUS",
+        "cargo"    : "RECTORA ",
+        "estudios" : [
+            "Licenciado en Educación Preescolar  ",
+            "Universidad San Buenaventura",
+            "Postgrado en proyectos Educativos Institucionales ",
+            "Universidad Cooperativa de Colombia"],
+        "exp" : "26 Años",
+        "img"      : "assets/user2.png"        
+    },
+    {
+        "nombre"   : "SONIA CONSTANZA CASTRO CASTIBLANCO",
+        "cargo"    : "COORDINADORA ACADÉMICA ",
+        "estudios" : [
+            "Licenciada en Educación Básica con énfasis en Ciencias Naturales y educación ambiental  ",
+            "Universidad El Bosque"],
+        "exp" : "19 Años",
+        "img"      : "assets/user2.png"        
+    },
+    {
+        "nombre"   : "MARTHA TERESA TORRES JIMENEZ",
+        "cargo"    : "Coordinadora de Convivencia  ",
+        "estudios" : [
+            "Trabajadora socila y Docente",
+            "Colegio Mayor de Cundinamarca- Universidad de la Sabana"],
+        "exp" : "27 Años",
+        "img"      : "assets/user2.png"        
+    },
+    {
+        "nombre"   : "JESSICA PAOLA ARÉVALO VALVUENA",
+        "cargo"    : "SECRETARIA ",
+        "estudios" : [
+            "Administradora de Empresas ",
+            "Corporación Universitaria Minuto de Dios"],
+        "exp" : "3 Años",
+        "img"      : "assets/user2.png"        
+    }
+]

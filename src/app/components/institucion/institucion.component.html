@@ -1,0 +1,56 @@
+
+<div class="container-fluid institucionfondo">
+  <div class="w3-center">
+    <h1 class="titleinstitucion">INSTITUCIÓN</h1>
+  </div>
+</div>
+
+
+<div class="optionmenuinstitucion container my-5 w3-ba w3-white">
+  
+    <a href="#" class="w3-bar-item w3-button w3-hover-red"
+       [routerLink]="['nosotros']" 
+       routerLinkActive="w3-green">
+      Nosotros
+    </a>
+
+    <a href="#" class="w3-bar-item w3-button w3-hover-red" 
+       [routerLink]="['mision']" 
+       routerLinkActive="w3-green">
+       Mision
+    </a>
+
+    <a href="#" class="w3-bar-item w3-button w3-hover-red" 
+       [routerLink]="['vision']" 
+       routerLinkActive="w3-green">
+       Vision
+    </a>
+
+    <a href="#" class="w3-bar-item w3-button w3-hover-red" 
+       [routerLink]="['simbolos']" 
+       routerLinkActive="w3-green">
+       Simbolos
+    </a>
+
+    <a href="#" class="w3-bar-item w3-button w3-hover-red" 
+       [routerLink]="['himno']" 
+       routerLinkActive="w3-green">
+       Himno
+    </a>
+
+    <a href="#" class="w3-bar-item w3-button w3-hover-red" 
+       [routerLink]="['filosofia']" 
+       routerLinkActive="w3-green">
+       Filosofia
+    </a>
+
+    <a href="#" class="w3-bar-item w3-button w3-hover-red" 
+       [routerLink]="['docentes']" 
+       routerLinkActive="w3-green">
+       Docentes
+    </a>
+  </div>
+
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>

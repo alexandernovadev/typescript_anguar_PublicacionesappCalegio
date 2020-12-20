@@ -1,0 +1,56 @@
+[
+    {
+        "nombre"   : "FERNANDO CARDENAS FUERTES",
+        "cargo"    : "Undécimo",
+        "estudios" : [
+            "Licenciado en ciencias sociales y Filosofía ",
+            "Universidad La Gran Colombia"],
+        "exp"      : "5 Años",
+        "img"      : "assets/user1.png"    
+    },
+    {
+        "nombre"   : "EDGAR ORLANDO HERNANDEZ CRUZ",
+        "cargo"    : "Décimo ",
+        "estudios" : [
+            "Licenciado en Español y Lenguas- Especualización en Educación  ",
+            "Universidad Pedagógica Nacional- Universidad de la Sabana"],
+        "exp" : "21 Años",
+        "img"      : "assets/user1.png"        
+    },
+    {
+        "nombre"   : "WENDY TATIANA PINZON BOLIVAR",
+        "cargo"    : "Noveno",
+        "estudios" : [
+            "Ingeniera  Biomédica ",
+            "Universidad Manuela Beltran "],
+        "exp" : "5 Años",
+        "img"      : "assets/user2.png"      
+    },
+    {
+        "nombre"   : "ANDREA MARCELA PATIÑO PATARROYO",
+        "cargo"    : "Octavo ",
+        "estudios" : [
+            "Ingeniera Electrónica  ",
+            "Universidad Pontificia Bolivariana"],
+        "exp" : "3 Años",
+        "img"      : "assets/user2.png"        
+    },
+    {
+        "nombre"   : "MARTHA TERESA  TORRES JIMENEZ",
+        "cargo"    : "Septimo ",
+        "estudios" : [
+            "Trabajo Social Y Docente  ",
+            "Colegio Mayor de Cundinamarca - Universidad de la Sabana"],
+        "exp" : "27 Años",
+        "img"      : "assets/user2.png"        
+    },
+    {
+        "nombre"   : "GLORIA IDALITH QUINTANA",
+        "cargo"    : "Sexto ",
+        "estudios" : [
+            "Licenciado en Lenguas  ",
+            "Universidad Pedagógica Nacional"],
+        "exp" : "25 Años",
+        "img"      : "assets/user2.png"        
+    }
+]

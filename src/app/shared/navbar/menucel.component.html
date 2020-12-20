@@ -1,0 +1,100 @@
+<div class="container-fluid menumobil">
+    <div class="row">
+        <div class="col-2">
+            <img src="assets/logowell.png" 
+            class="logonav" 
+            (click)="irahome()"
+            alt="Logo Icav"/>
+        </div>
+        <div class="col-8">
+            <div class="w3-center letralogonavcel"
+            (click)="irahome()">
+                <span>Colegio Gimansio <br/>
+                    Campestre Icav
+                </span> 
+            </div>
+        </div>
+        <div class="col-2" >
+            <i class="menuresp material-icons" (click)="abrirmenu()">menu</i>  
+        </div>
+    </div>
+</div>
+
+<div id="id01" class="w3-modal" [style.display]="estadomodal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-green"> 
+            <span (click)="estadomodal = 'none'"
+            class="w3-button w3-display-topright">X</span>
+            <div class="w3-center"><h3>Menu</h3></div>
+          </header>
+          <div class="w3-container my-3 w3-center opcionesletramenucel">
+
+
+
+
+            <a [routerLink]="['inicio']"
+            routerLinkActive="w3-green"
+            (click)="cerrarmenu()" onclick="topFunction()"
+            class="w3-button w3-hover-red">
+            Inicio
+            </a><br>
+
+            <a [routerLink]="['institucion']"
+                routerLinkActive="w3-green"
+                (click)="cerrarmenu()" onclick="topFunction()"
+                class="w3-button w3-hover-red">
+                Institucion
+            </a><br>
+
+            <a [routerLink]="['galeria']"
+                routerLinkActive="w3-green"
+                (click)="cerrarmenu()"onclick="topFunction()"
+                class="w3-button w3-hover-red">
+                Galeria
+            </a><br>
+
+            <a [routerLink]="['servicios']"
+                routerLinkActive="w3-green"
+                (click)="cerrarmenu()" onclick="topFunction()"
+                class="w3-button w3-hover-red">
+                Servicios
+            </a><br>
+
+            <a [routerLink]="['documentos']"
+                routerLinkActive="w3-green"
+                (click)="cerrarmenu()"onclick="topFunction()"
+                class="w3-button w3-hover-red">
+                Documentos
+            </a><br>
+
+            <a [routerLink]="['contacto']"
+                routerLinkActive="w3-green"
+                (click)="cerrarmenu()"onclick="topFunction()"
+                class="w3-button w3-hover-red">
+                Contacto
+            </a><br><br>
+            <hr>
+            <a *ngIf="!_nav.identity"
+            onclick="topFunction(), open_login()"
+                class="w3-btn w3-green m-3 w3-round">
+                Login
+            </a>
+            <div class="w3-center p-3" *ngIf="_nav.identity">
+                <div class="w3-border w3-border-green w3-round-large">
+                    <h4 class="w3-text-red">{{ _nav.identity.name }}</h4>
+                    <hr>
+                    <button class="w3-btn w3-green w3-round-large  w3-hover-red my-2"
+                     [routerLink]="['/dashboard']" 
+                    onclick="topFunction()" (click)="cerrarmenu()">
+                        DashBoard
+                    </button> <br>
+                    <button class="w3-btn  w3-green w3-round-large w3-hover-red my-2" (click)="_nav.log_out()"
+                     onclick="topFunction()" (click)="cerrarmenu()">
+                        Cerrar Sesion
+                    </button>
+                </div>
+            </div>
+            <br>
+          </div>
+    </div> 
+  </div>

@@ -1,0 +1,29 @@
+<div class="container-fluid postsfondo">
+  <div class="w3-center">
+    <h1 class="titleinstitucion">PUBLICACIONES</h1>
+  </div>
+</div>
+
+<div class="container">
+<div *ngFor="let post of topics" >
+
+  <div class="my-5">
+    <h1 class="w3-text-red">{{ post.title }}</h1>
+    <span class="w3-text-white px-2 w3-round-large w3-green">
+      <b>{{ post.date | date:'fullDate' | uppercase }}</b>
+    </span>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+      <p>{{post.content | slice:0:450}} ...</p>
+    </div>
+    <div class="col-md-4">
+      <img [src]="url +'topic/img/' + post.image" [alt]="post.title" class="img-fluid img-thumbnail" width="300" />
+    </div>
+  </div>
+  <button type="button" class="w3-btn w3-red w3-round-large"
+   [routerLink]="['/post', post._id]" >Ir al post</button>
+  <hr />
+</div>
+</div>

@@ -1,0 +1,76 @@
+.color
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carrusellhome
+{
+    /* Este margin se da porque hay que poner fixex el navbar */
+    margin-top: 60px !important;
+}
+
+.carousel-caption
+{
+    /* Fondo para anuncio de carrusell */
+    background: rgba(46, 125, 50, 0.253);
+    z-index: unset;
+}
+.carousel-caption>h5
+{
+    color:#c62828;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.carousel-caption>p
+{
+    font-weight: 400;
+    font-size: 1.5em;
+}
+.secejefundamentales
+{
+    /* Seccion de Ejes Fundamentales PARALLAX*/
+    background-image: url('~src/assets/fondotr.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media (max-width: 775.98px)
+{
+    .carrusellhome
+    {
+        /* Este margin se da porque hay que poner fixex el navbar */
+        margin-top: 0px !important;
+    }
+    .imgpeque
+    {
+        /* Este largo solo es para moviles
+        Cambia en tamaño de la imagen del carrusell*/
+        height: 260px !important;
+    }
+    .imgejes
+    {
+        width: 210px !important;
+    }
+    .imagepost
+    {
+        width: 100%;
+    }
+    p
+    {
+        font-size: 20px !important;
+    }
+    h4
+    {
+        font-size: 25px !important;
+    }
+    .imgcards
+    {
+        width: 90w !important;
+        height: 50vh !important;
+    }
+}

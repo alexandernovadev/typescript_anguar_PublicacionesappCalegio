@@ -1,0 +1,57 @@
+[
+    {
+        "nombre"   : "SANDRA MILENA VELASQUEZ PARRA",
+        "cargo"    : "Quinto A",
+        "estudios" : [
+            "Licenciada en Educación básica con Enfasis en Matemáticas y Humanidades ",
+            "Universidad Pedagógica y Tecnológica de Colombia ",
+            "Especialización en Gerencia Educativa"],
+        "exp"      : "15 Años",
+        "img"      : "assets/user2.png"    
+    },
+    {
+        "nombre"   : "KAREN LORENA FLOREZ PULIDO",
+        "cargo"    : "Quinto B",
+        "estudios" : [
+            "Licenciada en Educación Básica con Énfasis en Lengua Inglesa  ",
+            "Universidad San Buenaventura Bogotá"],
+        "exp" : "7 Años",
+        "img"      : "assets/user2.png"        
+    },
+    {
+        "nombre"   : "MARTHA ISABEL MARTÍNEZ VALERO",
+        "cargo"    : "Cuarto ",
+        "estudios" : [
+            "Licenciatura en Lengua Extranjera Ingles ",
+            "Universidad de la Sabana"],
+        "exp" : "13 Años",
+        "img"      : "assets/user2.png"      
+    },
+    {
+        "nombre"   : "JENNY ALEXANDRA ORJUELA ACOSTA",
+        "cargo"    : "Tercero ",
+        "estudios" : [
+            "Licenciada en Educación Básica con énfasis en Artística ",
+            "Universidad de la Sabana"],
+        "exp" : "13 Años",
+        "img"      : "assets/user2.png"      
+    },
+    {
+        "nombre"   : "LICEDTH YAZMIN GARCÍA BOLAÑOS",
+        "cargo"    : "Segundo ",
+        "estudios" : [
+            "Licenciada en Administración Educativa ",
+            "Universidad Cooperativa de Colombia"],
+        "exp" : "25 Años",
+        "img"      : "assets/user2.png"      
+    },
+    {
+        "nombre"   : "LUZ ANGELA MORENO PARRA",
+        "cargo"    : "Primero  ",
+        "estudios" : [
+            "Licenciada en Educación Preescolar  ",
+            "Universidad San Buenaventura "],
+        "exp" : "20 Años",
+        "img"      : "assets/user2.png"      
+    }
+]

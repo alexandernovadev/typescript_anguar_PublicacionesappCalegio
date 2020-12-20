@@ -1,0 +1,37 @@
+[{
+    "fecha"    : "09-20-2019",
+    "titulo"   : "Dia de la Madre",
+    "contendio": "Día de la Madre solo hay uno en el calendario aunque en realidad todos deberían ser fiesta para ellas, las personas que nos han dado la vida trayéndonos a este mundo.Seguramente hoy sea la jornada en que más “mamá, te quiero mucho” se pronuncien, y eso que la fiesta no coincide en el mismo día en todo el mundo. Es un día para celebrarlo con ella y junto al resto de la familia o para recodar su imponente figura si ya no está entre nosotros.",
+    "fotos":   ["assets/foto1.jpg","assets/foto2.jpg" , "assets/foto3.jpg"]              
+},
+{
+    "fecha"    : "05-18-2019",
+    "titulo"   : "Conferencia a Padres",
+    "contendio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam molestiae a quos soluta ratione amet quaerat ad modi repudiandae, unde quam nulla earum fuga ducimus quas praesentium. Omnis, similique blanditiis. quos soluta ratione amet quaerat ad modi repudiandae, unde quam nulla earum fuga ducimus quas praesentium. Omnis, similique blanditiis.",
+    "fotos":   ["assets/foto1.jpg","assets/foto2.jpg" , "assets/foto3.jpg"]              
+},
+{
+    "fecha"    : "04-13-2019",
+    "titulo"   : "Debate Candidatos a Personero Estudiantil",
+    "contendio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam molestiae a quos soluta ratione amet quaerat ad modi repudiandae, unde quam nulla earum fuga ducimus quas praesentium. Omnis, similique blanditiis. quos soluta ratione amet quaerat ad modi repudiandae, unde quam nulla earum fuga ducimus quas praesentium. Omnis, similique blanditiis.",
+    "fotos":   ["assets/foto1.jpg","assets/foto2.jpg" , "assets/foto3.jpg"]              
+},
+{
+    "fecha"    : "02-03-2019",
+    "titulo"   : "Elecciones Gobierno Escolar 2019",
+    "contendio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam molestiae a quos soluta ratione amet quaerat ad modi repudiandae, unde quam nulla earum fuga ducimus quas praesentium. Omnis, similique blanditiis. quos soluta ratione amet quaerat ad modi repudiandae, unde quam nulla earum fuga ducimus quas praesentium. Omnis, similique blanditiis.",
+    "fotos":   ["assets/foto1.jpg","assets/foto2.jpg" , "assets/foto3.jpg"]              
+},
+{
+    "fecha"    : "01-04-2019",
+    "titulo"   : "Segunda Izada de Bandera",
+    "contendio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam molestiae a quos soluta ratione amet quaerat ad modi repudiandae, unde quam nulla earum fuga ducimus quas praesentium. Omnis, similique blanditiis. quos soluta ratione amet quaerat ad modi repudiandae, unde quam nulla earum fuga ducimus quas praesentium. Omnis, similique blanditiis.",
+    "fotos":   ["assets/foto1.jpg","assets/foto2.jpg" , "assets/foto3.jpg"]              
+},
+{
+    "fecha"    : "01-22-2019",
+    "titulo"   : "Posesión del Gobierno Escolar",
+    "contendio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam molestiae a quos soluta ratione amet quaerat ad modi repudiandae, unde quam nulla earum fuga ducimus quas praesentium. Omnis, similique blanditiis. quos soluta ratione amet quaerat ad modi repudiandae, unde quam nulla earum fuga ducimus quas praesentium. Omnis, similique blanditiis.",
+    "fotos":   ["assets/foto1.jpg","assets/foto2.jpg" , "assets/foto3.jpg"]              
+}
+]

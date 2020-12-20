@@ -1,0 +1,29 @@
+[
+    {
+        "nombre"   : "SONIA ESPERANZA CONTRERAS MATEUS",
+        "cargo"    : "Transición",
+        "estudios" : [
+            "Licenciada en Educación Preescolar ",
+            "Universidad San Buenaventura"],
+        "exp"      : "2 Años",
+        "img"      : "assets/user2.png"    
+    },
+    {
+        "nombre"   : "DIANA PAOLA CONTRERAS",
+        "cargo"    : "Jardín",
+        "estudios" : [
+            "Licenciada en  Pedagogía Infantil  ",
+            "Corporación Universitaria Minuto de Dios"],
+        "exp" : "11 Años",
+        "img"      : "assets/user2.png"        
+    },
+    {
+        "nombre"   : "JULY ALEJANDRA BERDUGO RAMIREZ",
+        "cargo"    : "Pre- Jardín",
+        "estudios" : [
+            "Licenciada en Educación Preescolar ",
+            "Fundación Universitaria Castellanos"],
+        "exp" : "8 Años",
+        "img"      : "assets/user2.png"      
+    }
+]

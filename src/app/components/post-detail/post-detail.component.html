@@ -1,0 +1,12 @@
+<div class="container py-5 mb-5 espaciodash" *ngIf="topic">
+ <h1 class="w3-text-red">
+  <b>{{ topic.title }}</b>| <b class="w3-large w3-text-green">{{ topic.date | date:'longDate'}}</b>
+ </h1>
+
+  <img [src]="urlapi +'topic/img/' + topic.image"
+       [alt]="topic.title" 
+      class="img-fluid img-thumbnail mb-5 imagenpost" alt="">
+  <p class="mb-5 p-2">
+    {{ topic.content }}
+  </p>
+</div> 

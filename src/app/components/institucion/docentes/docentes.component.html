@@ -1,0 +1,112 @@
+<br><br><br>
+  <h1 class="w3-text-red">DOCENTES</h1>
+  <p class="w3-text-green">____________</p> <br>
+
+  <div class="container-fluid">
+    <h2 class="w3-text-red">Docentes Preecolar</h2> <br>
+    <div class="row">
+      <div *ngFor="let docente of docenteprees" class="col-md-4">
+          <div  class="card-deck">
+              <div class="card">
+                <img [src]="docente.img" class="card-img-top" width="60%" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title"><b>{{ docente.nombre }}</b></h5>
+                  <p class="card-text"><b>Cargo: </b> {{ docente.cargo }}</p>
+                  <p><b>Estudios </b> </p>
+                  <div class="m-0" *ngFor="let estudio of docente.estudios">
+                    <p >{{ estudio }}</p>
+                  </div>
+                  <hr>
+                  <p><small>Experiencia: 21 años</small></p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div> <br> <hr><br>
+  
+    <h2 class="w3-text-red">Docentes Primaria</h2> <br>
+    <div class="row">
+      <div *ngFor="let docente of docenteprim" class="col-md-4">
+          <div  class="card-deck">
+              <div class="card">
+                <img [src]="docente.img" class="card-img-top" width="60%" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title"><b>{{ docente.nombre }}</b></h5>
+                  <p class="card-text"><b>Cargo: </b> {{ docente.cargo }}</p>
+                  <p><b>Estudios </b> </p>
+                  <div class="m-0" *ngFor="let estudio of docente.estudios">
+                    <p >{{ estudio }}</p>
+                  </div>
+                  <hr>
+                  <p><small>Experiencia: 21 años</small></p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div> <br><br>
+
+    <h2 class="w3-text-red">Docentes Bachillerato</h2> <br>
+    <div class="row">
+      <div *ngFor="let docente of docentesecu" class="col-md-4">
+          <div  class="card-deck">
+              <div class="card">
+                <img [src]="docente.img" class="card-img-top" width="60%" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title"><b>{{ docente.nombre }}</b></h5>
+                  <p class="card-text"><b>Cargo: </b> {{ docente.cargo }}</p>
+                  <p><b>Estudios </b> </p>
+                  <div class="m-0" *ngFor="let estudio of docente.estudios">
+                    <p >{{ estudio }}</p>
+                  </div>
+                  <hr>
+                  <p><small>Experiencia: 21 años</small></p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div> <br><br>
+
+    <h2 class="w3-text-red">Docentes Extracurriculares</h2> <br>
+    <div class="row">
+      <div *ngFor="let docente of docenteotros" class="col-md-4">
+          <div  class="card-deck">
+              <div class="card">
+                <img [src]="docente.img" class="card-img-top" width="60%" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title"><b>{{ docente.nombre }}</b></h5>
+                  <p class="card-text"><b>Cargo: </b> {{ docente.cargo }}</p>
+                  <p><b>Estudios </b> </p>
+                  <div class="m-0" *ngFor="let estudio of docente.estudios">
+                    <p >{{ estudio }}</p>
+                  </div>
+                  <hr>
+                  <p><small>Experiencia: 21 años</small></p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div> <br><br>
+
+    <h2 class="w3-text-red">Docentes Directivos</h2> <br>
+    <div class="row">
+      <div *ngFor="let docente of docentedirectivos" class="col-md-4">
+          <div  class="card-deck">
+              <div class="card">
+                <img [src]="docente.img" class="card-img-top" width="60%" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title"><b>{{ docente.nombre }}</b></h5>
+                  <p class="card-text"><b>Cargo: </b> {{ docente.cargo }}</p>
+                  <p><b>Estudios </b> </p>
+                  <div class="m-0" *ngFor="let estudio of docente.estudios">
+                    <p >{{ estudio }}</p>
+                  </div>
+                  <hr>
+                  <p><small>Experiencia: 21 años</small></p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div> <br><br>
+    
+  </div>
+  <br><br><br>

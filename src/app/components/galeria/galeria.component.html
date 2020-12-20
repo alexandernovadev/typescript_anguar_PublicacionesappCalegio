@@ -1,0 +1,44 @@
+<div class="container-fluid galeriafondo">
+  <div class="w3-center pb-5">
+      <h1 class="titleinstitucion">GALERIA</h1>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="card-columns">
+    <div *ngFor="let foto of galeria2019; let i = index;" class="card">
+      <img [src]="foto.url" class="card-img-top img-thumbnail" 
+      (click)="openModal(i);" alt="..."/>
+      <!-- <div class="card-body">
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<!-- Modal Aqui -->
+
+<div class="w3-container">
+
+
+<div id="myModal" class="w3-modal w3-black">
+    <span class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright" 
+          (click)="closeModal()" 
+          style="cursor:pointer">×</span>
+  <div class="w3-row">
+   
+    <div class="w3-threequarter w3-container" style="height: 70vh; ">
+        <img [src]="url" height="100%" width="100%" alt="">
+    </div> <br>
+    <div class="w3-quarter w3-container" style="height: 80vh; overflow-y:scroll;">
+      <div *ngFor="let foto of galeria2019; let i = index;" class="card">
+          <img [src]="foto.url" class="img-fluid img-thumbnail" 
+          height="80vh" width="100%" 
+          (click)="openModal(i);" alt="..."/>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+    
+  

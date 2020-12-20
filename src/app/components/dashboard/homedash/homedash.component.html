@@ -1,0 +1,99 @@
+<div class="container espaciodash">
+  <div class="p-5 my-4">
+    <!--espaciodash: Espacio del nav  -->
+    <div class="avatar_mask float-left">
+      <img src="assets/fondospestanas/configuraciones.png" alt="">
+    </div>
+    <h2 class="w3-text-green float-left pl-5">
+      <b>DashBoard</b>| {{ titulo }}
+    </h2>
+  </div>
+  <div class="clearfix"></div>
+
+  <div class="container pt-5">
+
+      <div class="row">
+        <div class="col-5">
+          <input type="search" class="w3-input"
+          placeholder="Buscar Noticia">
+        </div>
+        <div class="col-2">
+          <input type="submit" [routerLink]="['/dashboard/add']" 
+          class="w3-btn w3-red w3-round" value="Agregar Publicacion">
+        </div>
+      </div>
+
+      <div class="w3-card p-4 mt-5 w3-round-large"
+        *ngFor="let topic of topics">
+        <h2 class="w3-text-red">
+          <b>{{ topic.title }}</b>
+        </h2>
+        <span class="w3-text-white px-2 w3-round-large w3-green">
+          <b>{{ topic.date | date:'fullDate' | uppercase }}</b>
+        </span>
+        <hr>
+    
+        <div class="row"> <!-- row foto e imagen -->
+          
+          <div class="col-4">
+          
+            <img [src]="url +'topic/img/' + topic.image" [alt]="topic.title" 
+              class="img-fluid img-thumbnail" width="250" />
+          </div>
+
+          <div class="col-8">
+            <p>{{ topic.content | slice:0:200}}...</p>
+          </div>
+
+        </div><!-- row foto e imagen -->
+
+        <div class="row mt-5"><!-- row btns -->
+          <div class="col-6">
+            <button class="w3-btn w3-green w3-round w3-block"
+              [routerLink]="['/dashboard/edit', topic._id]" >
+              EDITAR
+            </button>
+          </div>
+          <div class="col-6">
+            <button class="w3-btn w3-red w3-round w3-block"
+            (click)="open_remove(topic._id)">
+              ELIMINAR
+            </button>
+              <!-- MODAL -->
+              <div [id]="topic._id" class="w3-modal">
+                <div class="w3-modal-content w3-round-large w3-animate-top">
+                  <div class="w3-container p-5 w3-center ">
+                    <span (click)="close_remove(topic._id)"
+                      class="w3-btn w3-circle w3-red m-2 w3-display-topright">&times;</span>
+                    <h3 class="w3-text-red">¿ Esta segura de Eliminar el post ?</h3>
+                    <h4 class="w3-text-red"><b>{{ topic.title }}</b></h4>
+
+                    <div class="w3-container mt-5">
+                      <button 
+                      class="w3-btn w3-red w3-block"
+                      (click)="borrartopic(topic._id)">
+                    Eliminar
+                    </button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- MODAL -->
+          </div>
+        </div><!-- row btns -->
+        
+      </div>
+    </div>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>

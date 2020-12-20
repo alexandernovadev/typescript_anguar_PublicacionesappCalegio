@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+h1,h2,h3,h4,h5,h5
+{
+    font-family: 'Yanone Kaffeesatz', sans-serif !important;
+    font-size: 40px;
+}
+
+p
+{
+    font-family: 'Manjari', sans-serif !important;
+    font-size: 1.2em;
+}
+
+.titleinstitucion
+{
+    color: white!important;
+    font-size: 4em;
+}
+
+.pointer
+{
+    cursor: pointer;
+}
+
+div .pointer
+{
+    outline: none !important;
+}
+
+button
+{
+    outline: none !important;
+}
+button :link
+{
+    outline: none !important;
+}
+
+.logotitle
+{
+     margin-top: 150px;
+}
+.espaciodash
+{
+     margin-top: 70px;
+}
+/* PAra los titulos de cada seccion*/
+
+
+/* Para el modal de Login*/
+.modallogin
+{
+    width: 30vw;
+}
+
+.avatar_mask
+{
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.avatar_mask img
+{
+    height: 90px;
+}

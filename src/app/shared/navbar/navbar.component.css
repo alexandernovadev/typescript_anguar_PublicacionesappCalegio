@@ -1,0 +1,24 @@
+.menupc
+{
+    display: block;
+}
+.logonav
+{
+    width: 60px;
+    cursor: pointer;
+}
+
+/* Reglas para SmathPhone y Tablets*/
+@media (min-width: 0px) and (max-width: 991.98px) 
+{
+ 
+    .menupc
+    {
+        display: none;
+    }
+    .menumobil
+    {
+
+    }
+
+}

@@ -1,0 +1,98 @@
+<div class="w3-top m-0 p-0 menupc w3-white" >
+        <div class="w3-card">
+    
+                <div class="row ">
+                    <div class="col-md-3 ">
+                        
+                        <div class="row m-2">
+                            <div class="col-2">
+                                    <img src="assets/logowell.png" 
+                                    class="logonav pointer" 
+                                    (click)="irahome()"
+                                    alt="Logo Icav"/>
+                            </div>
+                            <div class="col-10 w3-padding pl-5 pointer" [routerLink]="['/home']" >
+                                <span class="w3-text-green w3-center" 
+                                style="font-size: 1em; text-transform: uppercase;" >
+                                    <b>Gimnasio Campestre Icav</b>
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-9 py-2">
+                    <button *ngFor="let opcion of opcionespage"
+                    routerLinkActive="w3-border-green w3-border"
+                    [routerLink]="[opcion]" onclick="topFunction()"
+                        class="w3-bar-item w3-btn w3-round w3-hover-red w3-text-green">
+                        <b>{{ opcion | titlecase }}</b>
+                    </button>
+                    <button *ngIf="!identity"
+                    class="w3-btn w3-green w3-round w3-right mr-4 my-2" onclick="open_login()">
+                        Log In
+                    </button>
+                  
+
+                    <div *ngIf="identity" class="w3-dropdown-hover w3-right mt-2" 
+                    style="margin-right: 80px !important;">
+                        <button class="w3-button w3-round w3-red w3-hover-green" >
+                            {{ identity.name }}
+                        </button>
+                        <div class="w3-dropdown-content w3-round w3-bar-block w3-card-4" 
+                        style="z-index: 999999">
+                            <button class="w3-btn w3-hover-none"
+                             [routerLink]="['/dashboard']"
+                             onclick="topFunction()">
+                                DashBoard
+                            </button>
+                            <button class="w3-btn w3-hover-none"
+                            (click)="log_out()"
+                            onclick="topFunction()">
+                                Cerrar Sesion
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+          
+    
+            </div>
+        </div>    
+        <app-menucel></app-menucel>
+          
+    
+    <!-- MODAL LOGIN -->
+    <!-- The Modal -->
+    <div id="loginmodal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-zoom w3-round-large modallogin" >
+            <div class="w3-container">
+                <span onclick="close_login()"
+                class="w3-button w3-circle m-2 w3-display-topright w3-red w3-hover-red">&times;</span>
+                <div class="w3-container w3-center mt-5 ">
+                    <h2 class="w3-text-red">
+                        <b>Login</b>
+                    </h2>
+                </div>
+                <br>
+                <form class="w3-container" #formLogin="ngForm" (ngSubmit)="login(formLogin)">
+    
+                    <p class="w3-text-red" *ngIf="error">Email O Password Incorrecto</p>
+                    <p>
+                    <label>Email</label>
+                    <input type="email" class="w3-input" id="emaillogin"  
+                    name="email" #email="ngModel" [(ngModel)]="user.email"
+                    placeholder="Introduce tu email" 
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required/></p>
+                    <p>
+                    <label>Password</label>
+                    <input type="password" class="w3-input" id="password"  
+                    name="password" #password="ngModel" [(ngModel)]="user.password"
+                    placeholder="Introduce tu Password"  
+                     required/></p>
+                    <button type="submit" class="btn btn-success btn-block w3-margin-bottom" 
+                    [disabled]="!formLogin.valid">Entrar</button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>

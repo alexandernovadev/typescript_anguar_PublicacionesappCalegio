@@ -1,0 +1,57 @@
+<div class="p-5 espaciodash">
+  <!--espaciodash: Espacio del nav  -->
+  <div class="avatar_mask float-left">
+    <img src="assets/fondospestanas/configuraciones.png" alt="">
+  </div>
+  <h2 class="w3-text-green float-left pl-5">
+    <b>DashBoard</b>| {{ titulo }}
+  </h2>
+</div>
+<div class="clearfix"></div>
+
+<div class="container mt-4">
+<div class="container w3-animate-left">
+  <button class="w3-red w3-round w3-btn" [routerLink]="['/dashboard']">
+    Home Dash
+  </button>
+
+  <form class="w3-container my-5 w3-border w3-border-green p-5 w3-round-xxlarge"
+  #formSaveTopic="ngForm" (ngSubmit)="save(formSaveTopic)" 
+  enctype="multipart/form-data" method="POST">
+
+ <div class="alert alert-success w3-round" *ngIf="estado == 'success'">
+  Publicacion Exitosa
+ </div>
+ <div class="alert alert-danger w3-round" *ngIf="estado == 'error'">
+  Publicacion con errorres Verifica tus datos
+ </div>
+    <label><b>Titulo</b></label>
+    <input class="w3-input" name="title" type="text"
+    #title="ngModel" [(ngModel)]="topic.title" required>
+
+    <label><b>Descripcion</b></label>
+    <textarea name="content" id="" rows="3" class="w3-input"
+     #content="ngModel" [(ngModel)]="topic.content" required></textarea>
+
+    <label><b>Imagen</b></label>
+    <angular-file-uploader #file0 
+    [config]="afuConfig" 
+    [resetUpload]=resetVar 
+    (ApiResponse)="UploadImg($event)" required>
+    </angular-file-uploader>
+
+    <input type="submit" class="mt-5 w3-block w3-btn w3-red w3-round w3-round-large" 
+    [disabled]="!formSaveTopic.valid" value="Agregar">
+  </form>
+</div>
+</div>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>

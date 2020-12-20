@@ -1,0 +1,49 @@
+[
+    {
+        "nombre"   : "MARIA DANIELA BUITRAGO BELLO",
+        "cargo"    : "DOCENTE DE INGLES",
+        "estudios" : [
+            "Licenciatura en Ingles ",
+            "Universidad la Gran Colombia "],
+        "exp"      : "2 Años",
+        "img"      : "assets/user2.png"    
+    },
+    {
+        "nombre"   : "NESTOR GARCÍA MARTINEZ",
+        "cargo"    : "DOCENTE DE EDUCAIÓN FISICA ",
+        "estudios" : [
+            "Licenciado en Educación Básica con Enfasis en Educación Física y Recreación y Deportes ",
+            "Universidad CENDA"],
+        "exp" : "8 Años",
+        "img"      : "assets/user1.png"        
+    },
+    {
+        "nombre"   : "OLGA LUCIA PAIBA MEDINA",
+        "cargo"    : "DOCENTE DE DIBUJO TÉCNICO",
+        "estudios" : [
+            "Técnico en Dibujo y Arquitectónico e Ingeniería ",
+            "SENA "],
+        "exp" : "6 Años",
+        "img"      : "assets/user2.png"      
+    },
+    {
+        "nombre"   : "OSCAR CORDOBA DOMINGUEZ",
+        "cargo"    : "DOCENTE DE INFORMÁTICA ",
+        "estudios" : [
+            "Tecnólogo en finanzas y Sistemas Contables  ",
+            "Fundación Universitaria CIDCA",
+            "Licenciado en  Educación",
+            "Universidad del Tolima"],
+        "exp" : "20 Años",
+        "img"      : "assets/user1.png"        
+    },
+    {
+        "nombre"   : "JEM KIMBERLY RAMIREZ VEGA",
+        "cargo"    : "DOCENTE DE DANZAS ",
+        "estudios" : [
+            "Bailarina Profesional  ",
+            "Corporación Etnias/ Ballet Cali Danza"],
+        "exp" : "5 Años",
+        "img"      : "assets/user2.png"        
+    }
+]
